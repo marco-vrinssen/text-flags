@@ -1,6 +1,6 @@
 ---
 name: text
-description: flag-driven text transformation. Load once per thread with /text, then any message starting with a flag is a command: -c -t -o -e -f -s -l -p -pp -ip -flags, or a two-letter language flag like -en or -de. Output keeps the input's language unless a flag names another, and -ip writes English. -t also works as a modifier next to another flag in any order, so -pp -t and -t -pp both build the prompt and translate it. A bare flag reuses the previous output.
+description: "flag-driven text transformation. Load once per thread with /text, then any message starting with a flag is a command: -c -t -o -e -f -s -l -p -pp -ip -flags, or a two-letter language flag like -en or -de. Output keeps the input's language unless a flag names another, and -ip writes English. -t also works as a modifier next to another flag in any order, so -pp -t and -t -pp both build the prompt and translate it. A bare flag reuses the previous output."
 ---
 
 # Text
