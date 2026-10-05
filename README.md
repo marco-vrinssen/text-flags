@@ -41,8 +41,6 @@ Sent findings to Jana.
 /plugin install text-flags@text-flags
 ```
 
-It is also listed in [marco-vrinssen/claude-plugins](https://github.com/marco-vrinssen/claude-plugins) with my other plugins.
-
 Codex, Cursor and other agents that read Agent Skills:
 
 ```
