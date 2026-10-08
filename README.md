@@ -9,7 +9,7 @@ Flag-driven text transforms for Claude Code. Load the skill once per conversatio
 | `-c` | corrects spelling, grammar and punctuation |
 | `-t` | translates between German and English, or flips another flag's output language |
 | `-o` | sharpens into clear, concise writing and neutralizes the tone |
-| `-e` | rewrites into eloquent, official legal prose |
+| `-e` | rewrites into articulate, well-spoken prose in plain, easy-to-read sentences |
 | `-f` | makes the text warmer and friendlier |
 | `-s` | shortens to the essential points |
 | `-l` | turns the input into short, clear entries, one per line, such as a to-do list or timesheet |

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 (2026-10-08)
+
+- `-e` writes articulate, well-spoken prose in plain sentences: one thought each, no nested clauses, exact everyday words. The legal register is gone.
+- The plugin descriptions say `polish` instead of `formalize`.
+
 ## 1.0.1 (2026-10-05)
 
 - `-p` adds one clause when the material carries instructions of its own, so the executor follows them only where the prompt asks, as Anthropic's guidance on pasted text recommends.

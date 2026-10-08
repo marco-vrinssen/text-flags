@@ -45,7 +45,7 @@ Printed only by `-flags`, never on load. Render exactly this, with nothing aroun
 | `-c` | corrects spelling, grammar and punctuation |
 | `-t` | translates between German and English. With another flag, before or after it, it flips that flag's output |
 | `-o` | sharpens into clear, concise, intelligent writing and neutralizes the tone |
-| `-e` | rewrites into eloquent, official legal prose, as a top law firm lawyer would |
+| `-e` | rewrites into articulate, well-spoken prose in plain, easy-to-read sentences |
 | `-f` | makes the text warmer, friendlier and more empathetic |
 | `-s` | shortens to the essential points |
 | `-l` | turns the input into a list of short, clear entries, one per line, such as a to-do list or timesheet |
@@ -71,7 +71,11 @@ Neutralize the tone in the same pass, so frustration, blame, sarcasm, intensifie
 A question stays a question, `can you…` included, sharpened but never turned into an instruction or answered.
 
 ### `-e`
-Rewrite as a senior partner at a top law firm would draft it: eloquent, official, highly juridical. Exact word choice, carefully qualified sentences, measured precision and authority. Never florid or verbose, never inflate the substance.
+Rewrite as an intelligent, well-read person would say it at their best: articulate, eloquent and easy to follow. The eloquence comes from exact words and a natural rhythm, never from length, rare words or complex syntax. Where `-o` cuts to the point, `-e` keeps the full thought and lifts how it is said, so filler like `so`, `basically`, `like` or `echt` and every vague word give way to the exact one.
+
+Build every sentence plainly. One thought per sentence, subject and verb early and close together, active voice, verbs over nouns. No nested or stacked clauses, no insertion between subject and verb, no chains of participles or prepositions. A run-on or nested input becomes clear sentences of varied length, joined by simple links such as `and`, `but`, `so` or `because`.
+
+The precise everyday word beats the grand one. No legal, official or ceremonial register, so phrasing like `hinsichtlich`, `beabsichtigen`, `im Wesentlichen`, `pursuant to` or `with regard to` goes, and so do flourishes, metaphors and intensifiers. Person, du or Sie and every fact stay, and the length stays close to the input's, never inflated.
 
 ### `-f`
 Warmer, friendlier, more empathetic. Meaning, intent and every fact intact, length close to the input's. Soften commands into requests, add the courtesies the input left out, and where it carries pressure or bad news acknowledge that in one short clause before the substance. Generous over neutral, never gushing or flattering. No emoji.
@@ -204,7 +208,9 @@ Print the flag table above, in full and unchanged, with nothing else. Any text b
 
 `-en` on any input, then `-o` on German input → German, since the earlier command's language never carries.
 
-`-e ich glaube der bericht ist so gut wie fertig, schicke ihn dann nächste woche rum` → `Der Bericht liegt nach meiner Einschätzung im Wesentlichen abschließend vor. Ich beabsichtige, ihn in der kommenden Woche zu versenden.`
+`-e ich glaube der bericht ist so gut wie fertig, schicke ihn dann nächste woche rum` → precise words, no officialese: `Der Bericht ist meiner Einschätzung nach nahezu fertig. Ich verschicke ihn in der kommenden Woche.`
+
+`-e so basically we couldn't ship friday because the api that the payment team said would be ready wasn't, so now it's probably next week` → the nested run-on becomes plain sentences, the hedge kept: `We couldn't ship on Friday. The payment team's API wasn't ready as promised, so the release will most likely move to next week.`
 
 `-f schick mir bis freitag die unterlagen, sonst wird das nichts mit dem termin` → the pressure acknowledged, the deadline and the consequence kept, du kept: `Ich weiß, die Zeit ist knapp, aber könntest du mir die Unterlagen bis Freitag schicken? Sonst klappt es mit dem Termin leider nicht. Danke dir!`
 
