@@ -1,4 +1,4 @@
-# Text Flags
+# Text Optimizer
 
 Flag-driven text transforms for Claude Code. Load the skill once per conversation with `/text`, then start any message with a flag. The text after the flag is always treated as material to transform, never as a request to carry out.
 
@@ -37,14 +37,14 @@ Sent findings to Jana.
 ## Install
 
 ```
-/plugin marketplace add marco-vrinssen/text-flags
-/plugin install text-flags@text-flags
+/plugin marketplace add marco-vrinssen/marcovrinssen
+/plugin install text-optimizer@marcovrinssen
 ```
 
 Codex, Cursor and other agents that read Agent Skills:
 
 ```
-npx skills add marco-vrinssen/text-flags
+npx skills add marco-vrinssen/text-optimizer
 ```
 
 ## What it runs and fetches
