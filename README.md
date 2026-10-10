@@ -4,5 +4,5 @@ Moved to [marco-vrinssen/claude-plugins](https://github.com/marco-vrinssen/claud
 
 ```
 /plugin marketplace add marco-vrinssen/claude-plugins
-/plugin install text-optimizer@marcovrinssen
+/plugin install text-optimizer@marco-vrinssen
 ```
